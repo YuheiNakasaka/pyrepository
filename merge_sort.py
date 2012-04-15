@@ -22,5 +22,5 @@ def div(lst):
 	return merge(l,r)
 
 if __name__ == "__main__":
-	lst = [1,3,4,5,2,8,9,11]
+	lst = sys.argv[1:]
 	main(lst)
